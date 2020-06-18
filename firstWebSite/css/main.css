@@ -1,0 +1,30 @@
+body{
+  font-family: 'Arvo', serif;
+}
+
+.height{
+  min-height: 100vh;
+}
+
+.height-80{
+  min-height: 80vh;
+}
+
+.title-underline{
+  width: 300px;
+  height: 4px;
+  margin: 0 auto;
+}
+
+.text-orange{
+  color: #D96C06;
+}
+
+.about-picture{
+  background: url(../img/pexels-photo-374074.jpeg)center/cover no-repeat fixed;
+  /* this is the long way of setting the background */
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
