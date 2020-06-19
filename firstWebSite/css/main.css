@@ -1,30 +1,34 @@
-body{
+body {
   font-family: 'Arvo', serif;
 }
 
-.height{
+.height {
   min-height: 100vh;
 }
 
-.height-80{
+.height-80 {
   min-height: 80vh;
 }
 
-.title-underline{
+.title-underline {
   width: 300px;
   height: 4px;
   margin: 0 auto;
 }
 
-.text-orange{
-  color: #D96C06;
+.text-orange {
+  color: #d96c06;
 }
 
-.about-picture{
-  background: url(../img/pexels-photo-374074.jpeg)center/cover no-repeat fixed;
+.about-picture {
+  background: url(../img/pexels-photo-374074.jpeg) center/cover no-repeat fixed;
   /* this is the long way of setting the background */
   /* background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; */
+}
+
+#filler {
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../img/pexels-photo-374074.jpeg) center/cover no-repeat fixed;
 }
